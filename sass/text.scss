@@ -31,10 +31,28 @@ h2{
 	line-height:1.6em;
 }
 
+h3{
+	font-size:$h2_font;
+	font-weight:normal;
+	line-height:0.7em;
+}
+
 .text_small{
 	font-size:$small_font;
 }
 
 .text_faded{
 	color:rgba(0,0,0,0.4);
+}
+
+.text_center{
+	text-align:center;
+}
+
+.text_strong{
+	font-weight:bolder;
+}
+
+.text_light{
+	font-weight:normal;
 }

@@ -29,11 +29,33 @@ h2 {
 }
 
 /* line 34, ../sass/text.scss */
+h3 {
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 0.7em;
+}
+
+/* line 40, ../sass/text.scss */
 .text_small {
   font-size: 0.45em;
 }
 
-/* line 38, ../sass/text.scss */
+/* line 44, ../sass/text.scss */
 .text_faded {
   color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 48, ../sass/text.scss */
+.text_center {
+  text-align: center;
+}
+
+/* line 52, ../sass/text.scss */
+.text_strong {
+  font-weight: bolder;
+}
+
+/* line 56, ../sass/text.scss */
+.text_light {
+  font-weight: normal;
 }

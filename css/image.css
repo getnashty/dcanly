@@ -1,5 +1,36 @@
-/* line 3, ../sass/image.scss */
+/* line 4, ../sass/image.scss */
 .image_wrapper_large {
   text-align: center;
   margin: 2em;
+}
+
+/* line 9, ../sass/image.scss */
+.image_grid_container {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 2em;
+}
+/* line 12, ../sass/image.scss */
+.image_grid_container ul {
+  display: table;
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 17, ../sass/image.scss */
+.image_grid_container li {
+  display: table-cell;
+  background: rgba(0, 0, 0, 0.02);
+  height: 300px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+}
+/* line 25, ../sass/image.scss */
+.image_grid_container .img_square {
+  width: 23%;
+}
+/* line 28, ../sass/image.scss */
+.image_grid_container .img_rect {
+  height: 48%;
 }

@@ -1,0 +1,11 @@
+/* line 3, ../sass/table.scss */
+ul.table_people {
+  display: table;
+  margin: auto;
+  padding: 2em;
+}
+/* line 7, ../sass/table.scss */
+ul.table_people li {
+  display: table-cell;
+  width: 33%;
+}

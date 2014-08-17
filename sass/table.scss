@@ -1,1 +1,11 @@
 @import "compass/css3";
+
+ul.table_people{
+	display:table;
+	margin:auto;
+	padding:2em;
+	li{
+		display:table-cell;
+		width:33%;
+	}
+}
