@@ -4,9 +4,13 @@
 #content{
 	@include clearfix;
 	
-	.pitch_main, .pitch_text_block{
-		width:968px;
-		margin:auto;
+	.pitch_main{
+		margin:2em auto;
+		width:960px;
+	}
+ .pitch_text_block{
+		margin:2em auto;
+		width:680px;
 	}
 
 }

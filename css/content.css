@@ -4,7 +4,12 @@
   *zoom: 1;
 }
 /* line 7, ../sass/content.scss */
-#content .pitch_main, #content .pitch_text_block {
-  width: 968px;
-  margin: auto;
+#content .pitch_main {
+  margin: 2em auto;
+  width: 960px;
+}
+/* line 11, ../sass/content.scss */
+#content .pitch_text_block {
+  margin: 2em auto;
+  width: 680px;
 }

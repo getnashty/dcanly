@@ -2,36 +2,32 @@
 
 $blue: #06C;
 $dark_blue:#105296;
+$blue_hover:#4F8FCE;
 $link_color:#fff;
 
-.button_small{
+a.button_small, a.button_large{
 	@include border-radius(3px);
 	border-color:$dark_blue;
 	border-bottom:3px solid $dark_blue;
 	background: $blue;
-	padding:0.5em 1em;
 	color:$link_color;
-	font-size:0.9em;
 	font-weight:bold;
-	a{
-		color:$link_color;
-		text-decoration:none;
-	}
+	text-decoration:none;
+	display:inline-block;
 }
 
-.button_large{
-	@include border-radius(3px);
-	border-color:$dark_blue;
-	border-bottom:3px solid $dark_blue;
-	background: $blue;
+a.button_small{
+	padding:0 1em;
+	font-size:0.9em;
+	line-height:2.4em;
+}
+
+a.button_large{
 	padding:0.75em 1em;
 	line-height:1em;
-	color:$link_color;
 	font-size:1.5em;
-	font-weight:bold;
-	display:inline-block;
-	a{
-		color:$link_color;
-		text-decoration:none;
-	}
+}
+
+.button_small:hover, .button_large:hover{
+	background-color:$blue_hover;
 }

@@ -2,3 +2,8 @@
 .utility_centered_container {
   text-align: center;
 }
+
+/* line 7, ../sass/utility.scss */
+.right {
+  text-align: right;
+}
