@@ -1,4 +1,4 @@
-/* line 3, ../sass/text.scss */
+/* line 8, ../sass/text.scss */
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
@@ -7,7 +7,32 @@ body {
   line-height: 1.35em;
 }
 
-/* line 11, ../sass/text.scss */
+/* line 16, ../sass/text.scss */
 a:link, a:visited {
   color: #0066cc;
+}
+
+/* line 20, ../sass/text.scss */
+h1 {
+  font-size: 2.25em;
+  font-weight: bold;
+  line-height: 1em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+/* line 28, ../sass/text.scss */
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* line 33, ../sass/text.scss */
+.text_small {
+  font-size: 0.6em;
+}
+
+/* line 37, ../sass/text.scss */
+.text_faded {
+  color: rgba(0, 0, 0, 0.4);
 }

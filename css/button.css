@@ -6,13 +6,34 @@
   border-color: #105296;
   border-bottom: 3px solid #105296;
   background: #0066cc;
-  padding: 0.2em 1em;
+  padding: 0.5em 1em;
   color: white;
   font-size: 0.9em;
   font-weight: bold;
 }
 /* line 16, ../sass/button.scss */
 .button_small a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 22, ../sass/button.scss */
+.button_large {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border-color: #105296;
+  border-bottom: 3px solid #105296;
+  background: #0066cc;
+  padding: 0.75em 1em;
+  line-height: 1em;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: inline-block;
+}
+/* line 33, ../sass/button.scss */
+.button_large a {
   color: white;
   text-decoration: none;
 }

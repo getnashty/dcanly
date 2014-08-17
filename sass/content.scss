@@ -1,3 +1,12 @@
 @import "compass/css3";
+@import "compass/utilities/general/clearfix";
 
+#content{
+	@include clearfix;
+	
+	.pitch_main, .pitch_text_block{
+		width:968px;
+		margin:auto;
+	}
 
+}

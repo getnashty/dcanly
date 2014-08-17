@@ -1,13 +1,39 @@
 @import "compass/css3";
 
+$small_font:0.6em;
+$base_font:1.25em;
+$h2_font:1.5em;
+$h1_font:2.25em;
+
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-weight:normal;
 	-webkit-font-smoothing: antialiased;
-	font-size: 1.25em;
+	font-size: $base_font;
 	line-height: 1.35em;
 }
 
 a:link, a:visited{
 	color:#0066cc;
+}
+
+h1{
+	font-size:$h1_font;
+	font-weight:bold;
+	line-height:1em;
+	text-align:center;
+	margin-bottom:0.5em;
+}
+
+h2{
+	font-size:$h2_font;
+	font-weight:bold;
+}
+
+.text_small{
+	font-size:$small_font;
+}
+
+.text_faded{
+	color:rgba(0,0,0,0.4);
 }
