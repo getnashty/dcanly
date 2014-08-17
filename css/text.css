@@ -1,0 +1,13 @@
+/* line 3, ../sass/text.scss */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.25em;
+  line-height: 1.35em;
+}
+
+/* line 11, ../sass/text.scss */
+a:link, a:visited {
+  color: #0066cc;
+}
