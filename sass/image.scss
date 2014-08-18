@@ -8,7 +8,7 @@
 
 .image_grid_container{
 	@include clearfix;
-	margin:2em;
+	margin:2em 0;
 	ul{
 		display:table;
 		width:100%;

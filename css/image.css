@@ -8,7 +8,7 @@
 .image_grid_container {
   overflow: hidden;
   *zoom: 1;
-  margin: 2em;
+  margin: 2em 0;
 }
 /* line 12, ../sass/image.scss */
 .image_grid_container ul {
