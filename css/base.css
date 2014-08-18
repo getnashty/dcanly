@@ -62,3 +62,8 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 5, ../sass/base.scss */
+#container {
+  padding: 0 2em;
+}
