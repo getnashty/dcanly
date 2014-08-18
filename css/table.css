@@ -7,5 +7,7 @@ ul.table_people {
 /* line 7, ../sass/table.scss */
 ul.table_people li {
   display: table-cell;
-  width: 33%;
+  width: 29%;
+  padding: 0 2%;
+  text-align: justify;
 }

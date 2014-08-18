@@ -6,11 +6,15 @@
 	
 	.pitch_main{
 		margin:2em auto;
-		width:960px;
+		max-width:960px;
 	}
  .pitch_text_block{
 		margin:2em auto;
-		width:680px;
+		max-width:680px;
+	}
+	.pitch_customer_referrals{
+		max-width:1060px;
+		margin:2em auto;
 	}
 
 }

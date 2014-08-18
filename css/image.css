@@ -34,3 +34,9 @@
 .image_grid_container .img_rect {
   height: 48%;
 }
+
+/* line 33, ../sass/image.scss */
+.image_circle_container {
+  text-align: center;
+  margin: 2em;
+}
