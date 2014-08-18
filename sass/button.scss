@@ -4,6 +4,7 @@ $blue: #06C;
 $dark_blue:#105296;
 $blue_hover:#4F8FCE;
 $link_color:#fff;
+$click_state:#124F8B;
 
 a.button_small, a.button_large{
 	@include border-radius(3px);
@@ -30,4 +31,9 @@ a.button_large{
 
 .button_small:hover, .button_large:hover{
 	background-color:$blue_hover;
+}
+.button_small:active, .button_large:active{
+	background-color:$click_state;
+	border-bottom-width:1px;
+	margin-top:2px;
 }
