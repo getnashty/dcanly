@@ -4,6 +4,8 @@ $small_font:0.45em;
 $base_font:1em;
 $h2_font:1.5em;
 $h1_font:2.25em;
+$base_color:rgba(0,0,0,0.7);
+$headline_color:#000;
 
 body{
 	font-family: 'Montserrat', sans-serif;
@@ -11,6 +13,7 @@ body{
 	-webkit-font-smoothing: antialiased;
 	font-size: $base_font;
 	line-height: 1.35em;
+	color:$base_color;
 }
 
 a:link, a:visited{
@@ -18,6 +21,7 @@ a:link, a:visited{
 }
 
 h1{
+	color:$headline_color;
 	font-size:$h1_font;
 	font-weight:bold;
 	line-height:1em;
@@ -26,12 +30,14 @@ h1{
 }
 
 h2{
+	color:$headline_color;
 	font-size:$h2_font;
 	font-weight:bold;
 	line-height:1.6em;
 }
 
 h3{
+	color:$headline_color;
 	font-size:$h2_font;
 	font-weight:normal;
 	line-height:0.7em;
@@ -55,4 +61,13 @@ h3{
 
 .text_light{
 	font-weight:normal;
+}
+.text_blurb{
+	text-align:justify;
+}
+.text_padded{
+	padding:0.5em;
+}
+.text_italic{
+	font-style:italic;
 }

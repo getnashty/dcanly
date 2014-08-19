@@ -1,19 +1,21 @@
-/* line 8, ../sass/text.scss */
+/* line 10, ../sass/text.scss */
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   font-size: 1em;
   line-height: 1.35em;
+  color: rgba(0, 0, 0, 0.7);
 }
 
-/* line 16, ../sass/text.scss */
+/* line 19, ../sass/text.scss */
 a:link, a:visited {
   color: #0066cc;
 }
 
-/* line 20, ../sass/text.scss */
+/* line 23, ../sass/text.scss */
 h1 {
+  color: black;
   font-size: 2.25em;
   font-weight: bold;
   line-height: 1em;
@@ -21,41 +23,58 @@ h1 {
   margin-bottom: 1em;
 }
 
-/* line 28, ../sass/text.scss */
+/* line 32, ../sass/text.scss */
 h2 {
+  color: black;
   font-size: 1.5em;
   font-weight: bold;
   line-height: 1.6em;
 }
 
-/* line 34, ../sass/text.scss */
+/* line 39, ../sass/text.scss */
 h3 {
+  color: black;
   font-size: 1.5em;
   font-weight: normal;
   line-height: 0.7em;
 }
 
-/* line 40, ../sass/text.scss */
+/* line 46, ../sass/text.scss */
 .text_small {
   font-size: 0.45em;
 }
 
-/* line 44, ../sass/text.scss */
+/* line 50, ../sass/text.scss */
 .text_faded {
   color: rgba(0, 0, 0, 0.4);
 }
 
-/* line 48, ../sass/text.scss */
+/* line 54, ../sass/text.scss */
 .text_center {
   text-align: center;
 }
 
-/* line 52, ../sass/text.scss */
+/* line 58, ../sass/text.scss */
 .text_strong {
   font-weight: bolder;
 }
 
-/* line 56, ../sass/text.scss */
+/* line 62, ../sass/text.scss */
 .text_light {
   font-weight: normal;
+}
+
+/* line 65, ../sass/text.scss */
+.text_blurb {
+  text-align: justify;
+}
+
+/* line 68, ../sass/text.scss */
+.text_padded {
+  padding: 0.5em;
+}
+
+/* line 71, ../sass/text.scss */
+.text_italic {
+  font-style: italic;
 }

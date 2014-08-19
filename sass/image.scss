@@ -3,34 +3,48 @@
 
 .image_wrapper_large{
 	text-align:center;
-	margin:2em;
+	margin:2em auto;
+	max-width:580px;
+	img{
+		width:100%;
+	}
 }
 
 .image_grid_container{
 	@include clearfix;
-	margin:2em 0;
+	margin:3em 0;
 	ul{
-		display:table;
 		width:100%;
 		@include clearfix;
 	}
 	li{
-		display:table-cell;
-		background:rgba(0,0,0,0.02);
 		height:300px;
 		text-align:center;
 		vertical-align:middle;
-		border:1px dashed rgba(0,0,0,0.2);
+		margin:1%;
+		float:left;
+		@include border-radius(8px);
+		overflow:hidden;
+		background-position:center;
 	}
 	.img_square{
 		width:28%;
 	}
 	.img_rect{
-		height:38%;
+		width:38%;
+	}
+	.img_one{
+		background-image:url('/images/dummy1.png');
+	}
+	.img_two{
+		background-image:url('/images/dummy2.png');
+	}
+	.img_three{
+		background-image:url('/images/dummy3.png');
 	}
 }
 
 .image_circle_container{
 	text-align:center;
-	margin:2em;
+	margin:1em;
 }
