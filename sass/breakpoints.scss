@@ -1,0 +1,68 @@
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+
+@media (max-width: 900px) {
+	#container{
+		.image_grid_container{
+			li{
+				width:48%;
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	#container{
+		#header{
+			.menu{
+			 .links li:last-child {
+						display: none;
+				}
+			}
+		}
+		.image_grid_container{
+			li{
+				width:98%;
+			}
+		}
+		.pitch_customer_referrals{
+			.table_people li:last-child{
+				display:none;
+			}
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	body{
+		font-size:0.8em;
+		#container{
+			padding:0 1.2em;
+			#header{
+				.logo{
+					max-width:120px;
+				}	
+				.menu .links li{
+					line-height:2.5em;
+				}
+			}
+			#footer{
+				width:255px;
+				font-size:0.9em;
+				margin:0 auto 1em;
+			}
+			.pitch_customer_referrals{
+				.table_people li{
+					display:block;
+					width:96%;
+				}
+				.table_people li:last-child{
+					display:block;
+				}
+			}
+		}
+		h3{
+			line-height:1em;
+		}
+	}
+}

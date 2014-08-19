@@ -7,22 +7,27 @@
 /* line 8, ../sass/header.scss */
 #header .logo {
   float: left;
+  max-width: 160px;
 }
-/* line 12, ../sass/header.scss */
+/* line 11, ../sass/header.scss */
+#header .logo img {
+  width: 100%;
+}
+/* line 16, ../sass/header.scss */
 #header .menu {
   float: right;
 }
-/* line 16, ../sass/header.scss */
+/* line 20, ../sass/header.scss */
 #header .links {
   float: right;
 }
-/* line 18, ../sass/header.scss */
+/* line 22, ../sass/header.scss */
 #header .links li {
   float: left;
   padding-right: 1em;
   line-height: 2.1em;
 }
-/* line 25, ../sass/header.scss */
+/* line 29, ../sass/header.scss */
 #header .button_small {
   float: right;
 }
