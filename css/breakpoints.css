@@ -58,7 +58,7 @@
 @media (max-width: 320px) {
   /* line 71, ../sass/breakpoints.scss */
   body {
-    font-size: 0.72em;
+    font-size: 1em;
   }
   /* line 73, ../sass/breakpoints.scss */
   body #container {
@@ -67,35 +67,63 @@
   /* line 75, ../sass/breakpoints.scss */
   body #container #header {
     padding: 1.2em 0 0;
+    font-size: 0.75em;
   }
-  /* line 77, ../sass/breakpoints.scss */
+  /* line 78, ../sass/breakpoints.scss */
   body #container #header .logo {
     max-width: 100px;
   }
-  /* line 80, ../sass/breakpoints.scss */
+  /* line 81, ../sass/breakpoints.scss */
   body #container #header .menu .links li {
     line-height: 2.5em;
   }
-  /* line 84, ../sass/breakpoints.scss */
+  /* line 85, ../sass/breakpoints.scss */
+  body #container .utility_centered_container {
+    text-align: left;
+  }
+  /* line 87, ../sass/breakpoints.scss */
+  body #container .utility_centered_container .button_large {
+    font-size: 0.9em;
+  }
+  /* line 91, ../sass/breakpoints.scss */
+  body #container #content {
+    padding: 0 1em;
+  }
+  /* line 93, ../sass/breakpoints.scss */
+  body #container #content .pitch_main {
+    margin: 0em auto;
+  }
+  /* line 97, ../sass/breakpoints.scss */
+  body #container #content .pitch_customer_referrals ul.table_people {
+    padding: 2em 0;
+  }
+  /* line 99, ../sass/breakpoints.scss */
+  body #container #content .pitch_customer_referrals ul.table_people li {
+    display: block;
+    width: 96%;
+  }
+  /* line 103, ../sass/breakpoints.scss */
+  body #container #content .pitch_customer_referrals ul.table_people li:last-child {
+    display: block;
+  }
+  /* line 109, ../sass/breakpoints.scss */
   body #container #footer {
     width: 255px;
     font-size: 0.9em;
     margin: 0 auto 1em;
   }
-  /* line 90, ../sass/breakpoints.scss */
-  body #container .pitch_customer_referrals ul.table_people {
-    padding: 2em 0;
+  /* line 115, ../sass/breakpoints.scss */
+  body h1 {
+    text-align: left;
+    font-size: 1.4em;
+    line-height: 1.2em;
   }
-  /* line 92, ../sass/breakpoints.scss */
-  body #container .pitch_customer_referrals ul.table_people li {
-    display: block;
-    width: 96%;
+  /* line 120, ../sass/breakpoints.scss */
+  body h2 {
+    line-height: 1.1em;
+    margin-bottom: 0.3em;
   }
-  /* line 96, ../sass/breakpoints.scss */
-  body #container .pitch_customer_referrals ul.table_people li:last-child {
-    display: block;
-  }
-  /* line 102, ../sass/breakpoints.scss */
+  /* line 124, ../sass/breakpoints.scss */
   body h3 {
     line-height: 1em;
   }

@@ -3,10 +3,13 @@
 
 #content{
 	@include clearfix;
+	p{
+		font-family:'Open Sans';		
+	}
 	
 	.pitch_main{
 		margin:3em auto;
-		max-width:960px;
+		max-width:820px;
 	}
  .pitch_text_block{
 		margin:3em auto;

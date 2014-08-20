@@ -3,17 +3,21 @@
   overflow: hidden;
   *zoom: 1;
 }
-/* line 7, ../sass/content.scss */
+/* line 6, ../sass/content.scss */
+#content p {
+  font-family: 'Open Sans';
+}
+/* line 10, ../sass/content.scss */
 #content .pitch_main {
   margin: 3em auto;
-  max-width: 960px;
+  max-width: 820px;
 }
-/* line 11, ../sass/content.scss */
+/* line 14, ../sass/content.scss */
 #content .pitch_text_block {
   margin: 3em auto;
   max-width: 680px;
 }
-/* line 15, ../sass/content.scss */
+/* line 18, ../sass/content.scss */
 #content .pitch_customer_referrals {
   max-width: 1060px;
   margin: 3em auto;

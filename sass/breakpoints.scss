@@ -69,11 +69,12 @@
 
 @media (max-width: 320px) {
 	body{
-		font-size:0.72em;
+		font-size:1em;
 		#container{
 			padding:0 1.2em;
 			#header{
 				padding:1.2em 0 0;
+				font-size:0.75em;
 				.logo{
 					max-width:100px;
 				}	
@@ -81,23 +82,44 @@
 					line-height:2.5em;
 				}
 			}
+			.utility_centered_container{
+				text-align:left;
+				.button_large{
+					font-size:0.9em;
+				}
+			}
+			#content{
+				padding:0 1em;
+				.pitch_main{
+					margin:0em auto;
+				}
+				.pitch_customer_referrals{
+					ul.table_people{
+						padding:2em 0;
+						li{
+							display:block;
+							width:96%;
+						}
+						li:last-child{
+							display:block;
+						}
+					}
+				}
+			}
 			#footer{
 				width:255px;
 				font-size:0.9em;
 				margin:0 auto 1em;
 			}
-			.pitch_customer_referrals{
-				ul.table_people{
-					padding:2em 0;
-					li{
-						display:block;
-						width:96%;
-					}
-					li:last-child{
-						display:block;
-					}
-				}
-			}
+		}
+		h1{
+			text-align:left;
+			font-size:1.4em;
+			line-height:1.2em;
+		}
+		h2{
+			line-height:1.1em;
+			margin-bottom:0.3em;
 		}
 		h3{
 			line-height:1em;

@@ -6,6 +6,7 @@ ul.table_people {
 }
 /* line 7, ../sass/table.scss */
 ul.table_people li {
+  font-family: 'Open Sans';
   display: table-cell;
   width: 29%;
   padding: 0 2%;
