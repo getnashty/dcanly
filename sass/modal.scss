@@ -1,0 +1,22 @@
+@import "compass/css3";
+
+#modal{
+	display:none;
+	position: absolute;
+	background: #fff;
+	width: 42%;
+	left: 25%;
+	top: 10%;
+	@include border-radius(20px);
+	padding: 4%;
+	@include box-shadow(0 6px 4px 0 rgba(0,0,0,0.1));
+}
+#modal_bg{
+	display:none;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color:rgba(0,0,0,0.7);
+}

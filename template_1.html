@@ -15,8 +15,39 @@
 		<link rel="stylesheet" type="text/css" charset="utf-8" href="css/table.css">
 		<link rel="stylesheet" type="text/css" charset="utf-8" href="css/content.css">
 		<link rel="stylesheet" type="text/css" charset="utf-8" href="css/breakpoints.css">
+		<link rel="stylesheet" type="text/css" charset="utf-8" href="css/modal.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			 function closeModal(){
+					$('#modal_bg').fadeOut();
+					$('#modal').slideUp();
+				};
+				$('.open_modal').click(function(){
+					$('#modal_bg').fadeIn();
+					$('#modal').slideDown();
+				});
+				$('.close_modal').click(function(){
+					closeModal()
+				});
+				$('#modal_bg').click(function(){
+					closeModal()
+				});
+			});
+		</script>
 	</head>
 	<body>
+		<div id="modal_bg"></div>
+		<div id="modal">
+			<div class="close_modal">close</div>
+			<script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
+			<script>
+				hbspt.forms.create({ 
+					portalId: '429214',
+					formId: '71b054ac-a00a-4805-a9c5-cf7c99f62940'
+				});
+			</script>
+		</div>
 		<div id="container">
 			
 			<!--HEADER-->
@@ -45,7 +76,7 @@
 					</div>
 					<h1>This is our sales pitch. It makes us who we are, and it's the first thing you see.</h1>
 					<div class="utility_centered_container">
-						<a href="#" class="button_large">
+						<a href="#" class="button_large open_modal">
 							Try us now, free for 30 days
 						</a>
 					</div>
@@ -78,7 +109,7 @@
 				</div>
 
 				<div class="utility_centered_container utility_extra_spacing">
-					<a href="#" class="button_large">
+					<a href="#" class="button_large open_modal">
 						Try us now, free for 30 days
 					</a>
 				</div>
@@ -131,7 +162,7 @@
 				</div>
 
 				<div class="utility_centered_container utility_extra_spacing">
-					<a href="#" class="button_large">
+					<a href="#" class="button_large open_modal">
 						Try us now, free for 30 days
 					</a>
 				</div>
