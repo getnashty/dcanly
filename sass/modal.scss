@@ -4,12 +4,14 @@
 	display:none;
 	position: absolute;
 	background: #fff;
-	width: 42%;
-	left: 25%;
+	width: 400px;
+	margin-left:-235px;
+	left: 50%;
 	top: 10%;
 	@include border-radius(20px);
-	padding: 4%;
+	padding: 30px 35px 0;
 	@include box-shadow(0 6px 4px 0 rgba(0,0,0,0.1));
+	text-align:center;
 }
 #modal_bg{
 	display:none;
@@ -19,4 +21,19 @@
 	left:0;
 	right:0;
 	background-color:rgba(0,0,0,0.7);
+}
+.modal_close{
+	float: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.75em;
+	margin: -30px -35px 0 0;
+	background: rgb(240, 240, 240);
+	padding: 8px 12px;
+	@include border-radius(0 20px);
+	cursor:pointer;
+	color: rgba(0,0,0,0.4);
+}
+.modal_close:hover{
+	background:#D3D3D3;
 }

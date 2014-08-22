@@ -36,6 +36,13 @@
 @media (max-width: 500px) {
 	body{
 		font-size:0.8em;
+		#modal{
+			width:auto;
+			margin-left:0px;
+			top:10%;
+			left:10%;
+			right:10%;
+		}
 		#container{
 			padding:0 1.2em;
 			#header{
@@ -70,6 +77,12 @@
 @media (max-width: 320px) {
 	body{
 		font-size:1em;
+		#modal{
+			width:auto;
+			top:10%;
+			left:10%;
+			right:10%;
+		}
 		#container{
 			padding:0 1.2em;
 			#header{

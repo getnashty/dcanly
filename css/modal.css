@@ -3,19 +3,21 @@
   display: none;
   position: absolute;
   background: #fff;
-  width: 42%;
-  left: 25%;
+  width: 400px;
+  margin-left: -235px;
+  left: 50%;
   top: 10%;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
-  padding: 4%;
+  padding: 30px 35px 0;
   -moz-box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-/* line 14, ../sass/modal.scss */
+/* line 16, ../sass/modal.scss */
 #modal_bg {
   display: none;
   position: fixed;
@@ -24,4 +26,25 @@
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 25, ../sass/modal.scss */
+.modal_close {
+  float: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+  margin: -30px -35px 0 0;
+  background: #f0f0f0;
+  padding: 8px 12px;
+  -moz-border-radius: 0 20px;
+  -webkit-border-radius: 0;
+  border-radius: 0 20px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 37, ../sass/modal.scss */
+.modal_close:hover {
+  background: #D3D3D3;
 }
